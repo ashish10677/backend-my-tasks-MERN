@@ -6,7 +6,7 @@ var Item = require('../models/Item');
 
 //Route to add an element
 itemRouter.route('/add/post').post(function(req, res) {
-    console.log(req.body);
+    console.log("backend ", req.body);
     var item = new Item(req.body);
     item.save()
     .then(item => {
