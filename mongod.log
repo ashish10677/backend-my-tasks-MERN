@@ -57,3 +57,11 @@
 2018-06-10T13:49:02.673+0530 I NETWORK  [conn12] end connection 127.0.0.1:54702 (0 connections now open)
 2018-06-10T13:49:02.673+0530 I NETWORK  [conn10] end connection 127.0.0.1:54686 (1 connection now open)
 2018-06-10T13:49:02.673+0530 I NETWORK  [conn11] end connection 127.0.0.1:54700 (2 connections now open)
+2018-06-10T14:00:20.422+0530 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2018-06-10T14:00:20.422+0530 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-06-10T14:00:20.422+0530 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-06-10T14:00:20.422+0530 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-06-10T14:00:20.433+0530 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-06-10T14:00:21.058+0530 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-06-10T14:00:21.059+0530 I CONTROL  [signalProcessingThread] now exiting
+2018-06-10T14:00:21.059+0530 I CONTROL  [signalProcessingThread] shutting down with code:0
