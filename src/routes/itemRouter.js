@@ -24,6 +24,7 @@ itemRouter.route('/').get((req, res) => {
             console.log(err);
         }
         else {
+            console.log(itms);
             res.json(itms); 
         }
     });
